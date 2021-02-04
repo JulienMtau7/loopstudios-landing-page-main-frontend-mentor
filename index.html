@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/reboot.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Loopstudios landing page</title>
+</head>
+<body>
+  <header>
+    <div class="entete">
+      <div class="img-header">
+        <img class="logo_loopstudios" src="./images/logo.svg" alt="logo">
+        <img id="openNav" onclick="openNav()" class="icon_menu" src="./images/icon-hamburger.svg" alt="logo">
+      </div>
+      
+      <nav class="navigation" id="navOpened">
+        <div class="headerNav">
+          <img class="loopstudios_nav" src="./images/logo.svg" alt="logo">
+          <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
+        </div>
+          <div class="navContent">
+            <a href="#">About</a>
+            <a href="#">Careers</a>
+            <a href="#">Events</a>
+            <a href="#">Products</a>
+            <a href="#">Support</a>
+          </div>
+      </nav>
+      <nav class="navigationDesktop">
+            <a href="#">About</a>
+            <a href="#">Careers</a>
+            <a href="#">Events</a>
+            <a href="#">Products</a>
+            <a href="#">Support</a>
+      </nav>
+    </div>
+  
+    <div class="container-subtitle">
+      <h1>
+        Immersive experiences that deliver
+      </h1>
+    </div>
+  </header>
+  
+  <section class="SectionVr">
+    <img  class="img-Vr" src="./images/mobile/image-interactive.jpg" alt="homme_casqueVr">
+    <div class="SectionVr__content">
+      <h1>
+        The leader in interactive VR
+      </h1>
+    
+      <p>
+        Founded in 2011, Loopstudios has been producing world-class virtual reality 
+        projects for some of the best companies around the globe. Our award-winning 
+        creations have transformed businesses through digital experiences that bind 
+        to their brand.
+      </p>
+    </div>
+  </section>
+
+  <section class="SectionCreations">
+    <div class="SectionCreations__header">
+      <h1>
+        Our creations
+      </h1>
+      <a class="SeeAllTop" href="#">See all</a>
+    </div>
+    
+    <nav class="SectionCreations__nav">
+      <div>
+        <h2>
+          Deep<br>earth
+        </h2>
+        <img src="./images/mobile/image-deep-earth.jpg" alt="">
+      </div>
+
+      <div>
+        <h2>
+          Night<br>arcade
+        </h2>
+        <img src="./images/mobile/image-night-arcade.jpg" alt="">
+      </div>
+
+      <div>
+        <h2>
+          Soccer<br>team VR
+        </h2>
+        <img src="./images/mobile/image-soccer-team.jpg" alt="">
+      </div>
+
+      <div>
+        <h2>
+          The<br>grid
+        </h2>
+        <img src="./images/mobile/image-grid.jpg" alt="">
+      </div>
+
+      <div>
+        <h2>
+          From up<br>above VR
+        </h2>
+        <img src="./images/mobile/image-from-above.jpg" alt="">
+      </div>
+
+      <div>
+        <h2>
+          Pocket<br>borealis
+        </h2>
+        <img src="./images/mobile/image-pocket-borealis.jpg" alt="">
+      </div>
+
+      <div>
+        <h2>
+          The<br>curiosity
+        </h2>
+        <img src="./images/mobile/image-curiosity.jpg" alt="">
+      </div>
+
+      <div>
+        <h2>
+          Make it<br>fisheye
+        </h2>
+        <img src="./images/mobile/image-fisheye.jpg" alt="">
+      </div>
+
+      <a class="SeeAllHide" href="#">See all</a>
+    </nav>
+    <nav class="DesktopSectionCreations__nav">
+      <div>
+        <h2>
+          Deep<br>earth
+        </h2>
+        <img src="./images/desktop/image-deep-earth.jpg" alt="">
+      </div>
+
+      <div>
+        <h2>
+          Night<br>arcade
+        </h2>
+        <img src="./images/desktop/image-night-arcade.jpg" alt="">
+      </div>
+
+      <div>
+        <h2>
+          Soccer<br>team VR
+        </h2>
+        <img src="./images/desktop/image-soccer-team.jpg" alt="">
+      </div>
+
+      <div>
+        <h2>
+          The<br>grid
+        </h2>
+        <img src="./images/desktop/image-grid.jpg" alt="">
+      </div>
+
+      <div>
+        <h2>
+          From up<br>above VR
+        </h2>
+        <img src="./images/desktop/image-from-above.jpg" alt="">
+      </div>
+
+      <div>
+        <h2>
+          Pocket<br>borealis
+        </h2>
+        <img src="./images/desktop/image-pocket-borealis.jpg" alt="">
+      </div>
+
+      <div>
+        <h2>
+          The<br>curiosity
+        </h2>
+        <img src="./images/desktop/image-curiosity.jpg" alt="">
+      </div>
+
+      <div>
+        <h2>
+          Make it<br>fisheye
+        </h2>
+        <img src="./images/desktop/image-fisheye.jpg" alt="">
+      </div>
+
+      <a class="SeeAllHide" href="#">See all</a>
+    </nav>
+    
+  </section>
+
+  
+  <footer>
+    <div class="footerNav">
+      <img class="logoLoopstudios" src="./images/logo.svg" alt="logo">
+      <nav>
+        <a href="#">About</a>
+        <a href="#">Careers</a>
+        <a href="#">Events</a>
+        <a href="#">Products</a>
+        <a href="#">Support</a>
+      </nav>
+    </div>
+
+    <div class="footerSocial">
+      <div class="navSocial">
+        <img src="./images/icon-facebook.svg" alt="facebook">
+        <img src="./images/icon-twitter.svg" alt="twitter">
+        <img src="./images/icon-pinterest.svg" alt="pinterest">
+        <img src="./images/icon-instagram.svg" alt="instagram">
+      </div>
+      <h2>
+        © 2021 Loopstudios. All rights reserved.
+      </h2>
+    </div>
+
+  </footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/JulienMtau7">Julien Marteau</a>.
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
